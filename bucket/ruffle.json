@@ -34,5 +34,6 @@
                 "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-$version/ruffle-nightly-$underscoreversion-windows-x86_32.exe"
             }
         }
-    }
+    },
+    "notes": "Start menu entry doesn't work but the shortcut can be dragged from its location in File Explorer to the desktop. Command-line 'ruffle' also works."
 }
