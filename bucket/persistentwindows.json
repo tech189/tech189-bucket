@@ -2,7 +2,7 @@
     "version": "5.28",
     "description": "Utility that persists window positions and size when the monitor display count/resolution adjusts",
     "homepage": "https://github.com/kangyu-california/PersistentWindows",
-    "license": "Unknown",
+    "license": "GPL-3.0",
     "url": "https://github.com/kangyu-california/PersistentWindows/releases/download/5.28/PersistentWindows5.28.zip",
     "hash": "ea238b42c5f0ca4b8940eef7e627e724916dd80a43cfc51120e0b49267beaa43",
     "bin": "PersistentWindows.exe",
