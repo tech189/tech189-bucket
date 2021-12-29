@@ -15,6 +15,9 @@
             "Drovp"
         ]
     ],
+    "persist": [
+        "userData"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
