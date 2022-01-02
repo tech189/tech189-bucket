@@ -1,0 +1,40 @@
+{
+    "version": "1.0.0",
+    "description": "Embed/view source code in png files",
+    "homepage": "https://github.com/Fusion/pngsource",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/Fusion/pngsource/releases/download/1.0.0/pngsource_installer.exe#dl.7z",
+                "https://github.com/Fusion/pngsource/releases/download/1.0.0/pngsource-cli-windows.zip"
+            ],
+            "hash": [
+                "6552ab57dc81be9d84096445e5188c012daf79b25508e8138d8ef51c87d5ee8c",
+                "95920f97e3a8b7adba48031f7bf6b0c9fe3e331e0ef4b4cef6343925ac77a514"
+            ]
+        }
+    },
+    "extract_dir": [
+        "",
+        "dist\\windows\\cli"
+    ],
+    "bin": "pngsource.exe",
+    "shortcuts": [
+        [
+            "pngsource-windows-4.0-amd64.exe",
+            "PNGSource"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/Fusion/pngsource/releases/download/$version/pngsource_installer.exe#dl.7z",
+                    "https://github.com/Fusion/pngsource/releases/download/$version/pngsource-cli-windows.zip"
+                ]
+            }
+        }
+    }
+}
