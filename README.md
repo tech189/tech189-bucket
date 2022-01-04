@@ -1,6 +1,5 @@
 # tech189's Scoop bucket!
 
-Uncomment the following line after replacing placeholders
 [![Build Status](https://ci.appveyor.com/api/projects/status/<appveyor-badge-id>?svg=true)](https://ci.appveyor.com/project/tech189/tech189-bucket "Build Status") [![Excavator](https://github.com/tech189/tech189-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/tech189/tech189-bucket/actions/workflows/excavator.yml)
 
 Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
