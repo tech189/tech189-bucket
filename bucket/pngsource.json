@@ -2,7 +2,7 @@
     "version": "1.0.0",
     "description": "Embed/view source code in png files",
     "homepage": "https://github.com/Fusion/pngsource",
-    "license": "Unknown",
+    "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": [
