@@ -1,0 +1,30 @@
+{
+    "version": "0.1.0",
+    "description": "CLI tool to manage VolcanoEngine Kubernetes Engine resources",
+    "homepage": "https://github.com/volcengine/vkectl",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/volcengine/vkectl/releases/download/v0.1.0/vkectl-windows-v0.1.0-amd64.zip",
+            "hash": "376bcb486f22e6ca460465ae4686bc83de66c89cc9c7200437f651cb13c7e3e6"
+        },
+        "32bit": {
+            "url": "https://github.com/volcengine/vkectl/releases/download/v0.1.0/vkectl-windows-v0.1.0-386.zip",
+            "hash": "7ade3153d8772c8115dade4aad45b55983cb0a6d5054bca0927aa14ec8ca8fcc"
+        }
+    },
+    "bin": [
+        "vkectl.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/volcengine/vkectl/releases/download/v$version/vkectl-windows-v$version-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/volcengine/vkectl/releases/download/v$version/vkectl-windows-v$version-386.zip"
+            }
+        }
+    }
+}
