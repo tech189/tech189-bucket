@@ -1,17 +1,17 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Embed/view source code in png files",
     "homepage": "https://github.com/Fusion/pngsource",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/Fusion/pngsource/releases/download/1.0.0/pngsource_installer.exe#dl.7z",
-                "https://github.com/Fusion/pngsource/releases/download/1.0.0/pngsource-cli-windows.zip"
+                "https://github.com/Fusion/pngsource/releases/download/1.0.1/pngsource_installer.exe#dl.7z",
+                "https://github.com/Fusion/pngsource/releases/download/1.0.1/pngsource-cli-windows.zip"
             ],
             "hash": [
-                "6552ab57dc81be9d84096445e5188c012daf79b25508e8138d8ef51c87d5ee8c",
-                "95920f97e3a8b7adba48031f7bf6b0c9fe3e331e0ef4b4cef6343925ac77a514"
+                "cb4aa878a80a689ac7120052a313d8087f6f86686ca1faae1b4dc21132c21617",
+                "0968672090a4de5040dfb87d2175f18bd493bb6a863271358936198f686fc80a"
             ]
         }
     },
