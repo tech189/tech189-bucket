@@ -1,0 +1,21 @@
+{
+    "version": "1.9.1",
+    "description": "Windows 10 Search Window appearance tweaker",
+    "homepage": "https://github.com/krlvm/BeautySearch",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/krlvm/BeautySearch/releases/download/v1.9.1/BeautySearch.exe",
+    "hash": "ea50c7c307b01f74d2ebd1c2db7ed560e204a9eff82e58106892940a34dadd4b",
+    "bin": [
+        "BeautySearch.exe"
+    ],
+    "shortcuts": [
+        [
+            "BeautySearch.exe",
+            "BeautySearch"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/krlvm/BeautySearch/releases/download/v$version/BeautySearch.exe"
+    }
+}
