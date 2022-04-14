@@ -1,12 +1,12 @@
 {
-    "version": "0.0.6",
+    "version": "0.1.0",
     "description": "Convenient UI for any drag & drop operations",
     "homepage": "https://github.com/drovp/drovp",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/drovp/drovp/releases/download/0.0.6/Drovp-x64.zip",
-            "hash": "45f7bb6464cb26a80fdb0e2b618244ecf5cb297100981b558dfcb7b131afeb26"
+            "url": "https://github.com/drovp/drovp/releases/download/0.1.0/Drovp-x64.zip",
+            "hash": "83ba5b76de350c57029a345a61a208e75af4789128409eb1d9b8b0076c23a8e8"
         }
     },
     "shortcuts": [
@@ -15,9 +15,7 @@
             "Drovp"
         ]
     ],
-    "persist": [
-        "userData"
-    ],
+    "persist": "userData",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
