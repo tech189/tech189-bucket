@@ -1,12 +1,12 @@
 {
-    "version": "2.0.0.3",
+    "version": "2.0.0.4",
     "description": "Editor for Windows Vista, 7, 8, 10 and 11 visual styles (.msstyles files)",
     "homepage": "https://github.com/nptr/msstyleEditor",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nptr/msstyleEditor/releases/download/2.0.0.3/msstyleEditor.zip",
-            "hash": "df6cf83324c5af53c5eb8ab8558b2f370cf9d796ec39b46acc74f58881b58ef4"
+            "url": "https://github.com/nptr/msstyleEditor/releases/download/2.0.0.4/msstyleEditor.zip",
+            "hash": "fd431b0842ad7a317094a674858105351ccd252b30c2474fb913c60eefcaba38"
         }
     },
     "bin": "msstyleEditor.exe",
